@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body
+{
+    background-color: #e6e6e6;
+    margin:0 ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar
+{
+    background: white;
+    padding: 1em;
+}
+span
+{
+   color:red;
+}
+
+nav
+{
+   display: none;
+}
+
+.container
+{
+    display: flex;
+    place-content: space-between;
+
+}
+
+.phone-menu
+{
+    cursor: pointer;
+}
+
+a 
+{
+    color: #444444;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.head-section
+{
+    padding: 5em 2em;
+     text-align: center; 
+     border-bottom: 2px solid black;
+}
+
+.subhead
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 0.3em;
+}
+
+h1{
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+}
+
+.left-column{
+    margin-top: 100px;
+}
+.features-section
+{
+    padding: 5em 2em;
+    background: linear-gradient(#e6e6e6,#B8C6DB); 
+}
+.card img
+{
+    float: left;
+}
+.card h2
+{
+    padding-top: 2px;
+    font-size: medium;
+    text-shadow: 2px 2px white;
+}
+.card p, article
+{
+    font-size: small;
+    font-style: italic;
+}
+
+.card li  {
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px 0 black;
+    max-width: 300px;
+    margin: 0 auto 5em auto;
+    text-align: center;
+    font-family: arial;
+    list-style: none;
+  }
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+    font-weight: bold;
+  }
+
+.container4
+{
+    text-align: center;
+}
+
+nav.menu-btn
+{
+    display: block;
+}
+
+nav{
+    position: fixed;
+    z-index: 999;
+    width: 30%;
+    right: 0;
+    top: 0;
+    background: #000;
+    height: 100vh;
+    padding: 1em;
+}
+
+.container ul{
+    margin-top: 5em;
+}
+
+.container a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .5em;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.container a:hover
+{
+    font-weight: bold;
+}
+
+.phone-exit
+{
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+/* css section for the payment styling */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-50 {
+    padding: 0 16px;
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  
+  .col-75 {
+    padding: 0 16px;
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  .exp
+  {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+    float: left;
+    margin-right: 5px;
+  }
+  input[type=text],input[type=submit] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .submit {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .submit:hover {
+    background-color: lightgray;
+  }
+/* css for success page */
+.success
+{
+    margin-top: 20px;
+    float: left;
+}
+.purchase, h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+@media only screen and (min-width: 770px)
+{
+    .phone-menu, .phone-exit
+    {
+        display: none;
+    }
+    .navbar .container
+    {
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+    .navbar nav {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .navbar ul
+    {
+        display: flex;
+        margin: 0;
+    }
+    .navbar a
+    {
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+    }
+    .navbar li.current a
+    {
+        font-weight: bold;
+    }
+    .card
+    {
+      display: inline-block;
+    }
+    .card li
+    {
+      margin: 10px;
+      margin-right: 20px;
+      margin-left: 70px;
+    }
+.left-column
+{
+    float: left;
+    margin-left: 10px;
+}
+
+}
+
